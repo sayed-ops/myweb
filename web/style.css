@@ -1,0 +1,66 @@
+body{
+    background-color:azure;
+    padding: 0;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header{
+    background: lightgreen;
+    color: black;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+/section{
+    background: gray;
+    display: flex;
+}
+/.sec{
+    background: yellow;
+    margin: auto;
+    width: 100px;
+    height: 200px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+li{
+    padding: 5px 5px;
+}
+footer{
+    background: black;
+    color: white;
+}
+nav{
+    margin-left: -3px;
+}
+a{
+    text-decoration: solid;
+    color: black;
+}
+input[type=text],input[type=password]{
+    width: auto;
+    text-align: center;
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    background-color: aliceblue;
+    opacity: 90%;
+}
+.container{
+    border: none;
+    border-radius: 5px;
+    margin: 20% 25%;
+    background-color: lightgreen;
+    padding: 10px 10px;
+}
+.container div{
+    margin-block-end: 20px;
+}
+.container button{
+    border: none;
+}
